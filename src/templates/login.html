@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+
+    <form action="" method="post">
+        <p>
+	    <label for="param1">Плотность,кг/м3</label>
+	    <input type="float" name="param1">
+	</p>
+	<p>
+	    <label for="param2">Модуль упругости,ГПа2</label>
+	    <input type="float" name="param2">
+	</p>
+        <p>
+	    <label for="param3">Количество отвердителя,м.%</label>
+	    <input type="float" name="param3">
+	</p>
+        <p>
+	    <label for="param4">Содержание эпоксидных групп,%_2</label>
+	    <input type="float" name="param4">
+	</p>
+    <p>
+	    <label for="param5">Температура вспышки,С_2</label>
+	    <input type="float" name="param5">
+	</p>
+    <p>
+	    <label for="param6">Поверхностная плотность,г/м2</label>
+	    <input type="float" name="param6">
+	</p>
+    <p>
+	    <label for="param7">Модуль упругости при растяжении,ГПа</label>
+	    <input type="float" name="param7">
+	</p>
+    <p>
+	    <label for="param8">Прочность при растяжении,МПа</label>
+	    <input type="float" name="param8">
+	</p>
+    <p>
+	    <label for="param9">Потребление смолы,г/м2</label>
+	    <input type="float" name="param9">
+	</p>
+    <p>
+	    <label for="param10">Угол нашивки,град</label>
+	    <input type="float" name="param10">
+	</p>
+		<p>
+	    <label for="param11">Шаг нашивки</label>
+	    <input type="float" name="param11">
+	</p>
+    <p>
+	    <label for="param12">Плотность нашивки</label>
+	    <input type="float" name="param12">
+	</p>
+
+	    <input type="submit">
+	</p>
+    </form>
+
+</body>
+</html>
